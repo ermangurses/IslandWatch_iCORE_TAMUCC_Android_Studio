@@ -1,0 +1,71 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tamucc_main_background" >
+
+    <ImageButton
+        android:id="@+id/imageButtonReportPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="155dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:paddingBottom="5dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icore_email_udp_picture" />
+
+    <ImageButton
+        android:id="@+id/imageButtonReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonReportPicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="160dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:paddingBottom="5dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icore_email_udp" />
+
+    <TextView
+        android:id="@+id/textViewReportPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageButtonReportPicture"
+        android:layout_alignTop="@id/imageButtonReportPicture"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="    Email Picture"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textViewReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageButtonReport"
+        android:layout_alignTop="@id/imageButtonReport"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="Email"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</RelativeLayout>

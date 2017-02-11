@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutMainWXGATablet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="true"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        android:src="@drawable/tamucc_main_background" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMainCallUdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="400dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:focusable="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icore_call_udp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMainReportUdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/imageButtonMainCallUdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="300dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        android:paddingBottom="5dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icore_report_udp" />
+
+    <TextView
+        android:id="@+id/textViewMainCallUdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageButtonMainCallUdp"
+        android:layout_alignTop="@id/imageButtonMainCallUdp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="Call UPD"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textViewMainReportUdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageButtonMainReportUdp"
+        android:layout_alignTop="@id/imageButtonMainReportUdp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="Report"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMainBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bottom_button"
+        android:scaleType="fitXY"
+        android:src="@drawable/icore_co_brand_background" />
+
+    <ImageView
+        android:id="@+id/imageViewMainIcoreCoBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageButtonMainBottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@id/imageButtonMainBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icore_co_brand" />
+
+</RelativeLayout>
